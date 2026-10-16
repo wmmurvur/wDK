@@ -1,0 +1,5 @@
+# Sitenin kendi 404 sayfası
+ErrorDocument 404 /404.html
+
+# Yerel önizleme dosyaları yalnızca indirilen kopyada işe yarar; yayındaki sitede açılmasın
+RedirectMatch 404 ^/(_yerel-sunucu/|SITEYI-AC-|BENI-OKU\.txt)

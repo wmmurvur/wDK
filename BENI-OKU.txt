@@ -1,0 +1,23 @@
+SİTENİN DERLENMİŞ HÂLİ: BİLGİSAYARDA NASIL AÇILIR
+
+index.html dosyasına çift tıklarsanız sayfa düz yazı gibi görünür; bu normal.
+Tarayıcılar güvenlik gereği, bilgisayardan doğrudan açılan dosyalarda sitenin
+stillerini ve animasyonlarını yüklemez. Site, gerçek sitedeki gibi küçük bir
+sunucuyla açılmalı. Bunun için aşağıdaki dosyalar hazır, bir şey kurmanız gerekmez.
+
+ÖNCE: zip dosyasını bir klasöre çıkarın (zip'in içinden doğrudan çalışmaz).
+
+WINDOWS
+  1. "SITEYI-AC-Windows.bat" dosyasına çift tıklayın.
+  2. "Windows bilgisayarınızı korudu" uyarısı çıkarsa: "Ek bilgi" → "Yine de çalıştır".
+  3. Tarayıcı kendiliğinden açılır (http://localhost:8765/).
+
+MAC
+  1. "SITEYI-AC-Mac.command" dosyasına çift tıklayın.
+  2. "Apple doğrulayamadı" uyarısı çıkarsa: Sistem Ayarları → Gizlilik ve Güvenlik
+     → sayfanın altında "Yine de Aç". Ya da: Terminal'i açın, "bash " yazıp
+     (sonunda bir boşluk) dosyayı Terminal penceresine sürükleyin, Enter'a basın.
+  3. Tarayıcı kendiliğinden açılır (http://localhost:8765/).
+
+Bakmanız bitince açılan siyah pencereyi (Terminal / komut penceresi) kapatın; site de kapanır.
+Bu dosyalar yalnızca indirilen kopyada işe yarar; yayındaki sitede erişime kapalıdır.

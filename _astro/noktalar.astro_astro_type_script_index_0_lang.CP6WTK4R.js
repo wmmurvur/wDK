@@ -1,0 +1,1 @@
+import{r as e}from"./ortak.BK14DF-I.js";e.from(`.dizin-acilis > *`,{opacity:0,y:30,duration:1.2,ease:`expo.out`,stagger:.08}),e.from(`.nokta-dizin > *`,{opacity:0,y:40,duration:1,ease:`expo.out`,stagger:.04,delay:.3});
