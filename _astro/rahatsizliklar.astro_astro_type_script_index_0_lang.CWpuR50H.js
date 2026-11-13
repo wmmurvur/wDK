@@ -1,0 +1,1 @@
+import{r as e,t}from"./ortak.BK14DF-I.js";t.satirlar(document.querySelector(`.dizin-acilis`),.2),e.from(`.dizin-acilis > *`,{opacity:0,y:30,duration:1.2,ease:`expo.out`,stagger:.08}),e.utils.toArray(`.alan`).forEach(t=>e.from(t.querySelectorAll(`h2, li`),{opacity:0,y:24,stagger:.05,duration:1,ease:`expo.out`,scrollTrigger:{trigger:t,start:`top 80%`}}));
